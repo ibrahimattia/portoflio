@@ -48,5 +48,14 @@ $(function () {
        }
      });
     }());
+    
+    // trigger mixitup
+
+    $('#container').mixItUp();
+
+    // adjust shuffle links
+    $(".shuffle li").click(function () {
+      $(this).addClass('select').siblings().removeClass("select");
+    });
 });
-30.
+

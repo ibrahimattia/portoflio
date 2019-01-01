@@ -251,11 +251,12 @@ hr{
 }
 .our-project ul {
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .our-project ul li.select{
     background-color: #1abc9c;
-    border:2px solid #888;
+    border:2px solid #08a081;
     color:#fff;
 }
 
@@ -315,6 +316,9 @@ hr{
     bottom: 20px;
     right: 20px;
     color:#fff;
+    display:none;
+}
+.our-project .mix{
     display:none;
 }
 /* end projects */

@@ -57,5 +57,12 @@ $(function () {
     $(".shuffle li").click(function () {
       $(this).addClass('select').siblings().removeClass("select");
     });
+
+    // applay nice scroll
+    $("html").niceScroll({
+        cursorcolor: '#1abc9c',
+        cursorwidth: "10px",
+
+    });
 });
 

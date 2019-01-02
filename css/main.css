@@ -323,6 +323,72 @@ hr{
 }
 /* end projects */
 
+/*start footer */
+.footer{
+    background-color:#232323;
+    color:#6c6c6c;
+    padding:40px;
+    overflow: hidden;
+    
+}
+.footer .col {
+    width:25%;
+    float:left;
+}
+.footer .col h2 {
+    color:#fff;
+    font-weight: normal;
+    font-size:18px;
+}
+
+.footer .col p{
+    margin-bottom: 20px;
+    line-height: 1.6
+}
+.footer .first i {
+    display: inline-block;
+    color:#979797;
+    border:1px solid #979797;
+    width:40px;
+    padding: 10px;
+
+}
+
+.footer .tags span {
+    display: inline-block;
+    color:#e7e7e7;
+    border:1px solid #979797;
+    margin-right: 5px;
+    margin-bottom:10px;
+    padding: 5px;
+
+}
+.footer .copright{
+    margin-top: 20px;
+}
+.footer .recent >div{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.footer .recent > div img{
+    float: left;
+    margin-right:20px;
+}
+
+.footer .recent > div h4{
+    margin: 5px 0;
+    color:#ccc;
+    font-weight: normal;
+}
+
+.footer .blog li{
+    padding:15px;
+    border-bottom: 1px solid #979797;
+    color:#ccc;
+}
+/* end footer */
+
 /* start frame work */
 .clearfix{
     clear:both;
